@@ -1,0 +1,49 @@
+.navbar {
+  height: 12rem;
+  width: 100%;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+#business-name {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+  transition: .3s ease-in;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#business-name:hover {
+  color: var(--accent);
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks li {
+  list-style: none;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--white);
+  transition: all .3s ease-in;
+  padding: 0 2rem;
+  letter-spacing: 1px;
+}
+
+.navlinks li a:hover {
+  color: var(--accent);
+}
