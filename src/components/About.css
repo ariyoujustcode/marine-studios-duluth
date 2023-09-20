@@ -5,15 +5,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10% 20%;
+  padding: 15%;
 }
 
-.about-me h2 {
+.about-me .about-ari h2 {
   font-size: 3.4rem;
   text-transform: uppercase;
   text-decoration: underline;
   color: var(--blue);
-  margin: 1rem 0;
+  margin: 2% 0;
+  text-align: center;
+}
+
+.responsive-design {
+  display: flex;
 }
 
 .about-p {
@@ -24,5 +29,94 @@
   font-size: 2.8rem;
   color: var(--blue);
   font-weight: 700;
-  margin: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
 }
+
+.svg-about {
+  width: 500px;
+  height: auto;
+  margin: 1rem;
+}
+
+.svg-too {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.responsive-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.svg-none {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .svg-about {
+    width: 350px;
+  }
+
+  .about-me .about-ari h2 {
+    font-size: 2.4rem;
+  }
+
+  .about-p {
+    font-size: 1.8rem;
+  }
+
+  .about-me h4 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .svg-none {
+    display: block;
+    width: 300px;
+    height: auto;
+  }
+  
+  .about-ari {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .svg-about {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-me .about-ari h2 {
+    margin-top: 15%;
+  }
+
+  .about-me {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-me .about-ari h2 {
+    margin-top: 20%;
+  }
+}
+
