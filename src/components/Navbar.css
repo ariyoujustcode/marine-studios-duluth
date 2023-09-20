@@ -8,6 +8,21 @@
   padding: 0 10%;
 }
 
+.menu {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bar1, .bar2, .bar3 {
+  background-color: var(--white);
+  height: .4rem;
+  width: 4rem;
+  margin: .4rem 0;
+  transition: all .3s ease-in;
+}
+
 #business-name {
   text-decoration: none;
   color: var(--white);
@@ -46,4 +61,74 @@
 
 .navlinks li a:hover {
   color: var(--accent);
+}
+
+@media screen and (max-width: 1030px) {
+  #business-name {
+    font-size: 3rem;
+  }
+
+  .navlinks li a {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .menu {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 12rem; /* Adjust to your navbar height */
+    right: 0;
+    background-color: var(--blue);
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    justify-content: center;
+  }
+
+  .menu.open .bar1 {
+    transform: rotate(-45deg) translate(-11px, 6px);
+  }
+  
+  .menu.open .bar2 {
+    opacity: 0;
+  }
+  
+  .menu.open .bar3 {
+    transform: rotate(45deg) translate(-11px, -6px);
+  }
+
+  .navlinks.open {
+    max-height: 100vh;
+    min-height: calc(100vh - 12rem);
+  }
+
+  .navlinks.open li a {
+    font-size: 3rem;
+  }
+
+  .navlinks.open li {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    padding: 0 5%;
+  }
+
+  #business-name {
+    margin: 2rem;
+    display: block;
+    text-align: left;
+  }
+
 }
