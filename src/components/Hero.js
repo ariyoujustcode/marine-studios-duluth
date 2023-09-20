@@ -13,8 +13,8 @@ function Hero() {
           <InlineSVG src={svgData} className='hero-svg'/>
         </div>
         <h1>Ari Marine - Web Developer</h1>
-        <h2>Ari Marine</h2>
-        <h3>Web Developer</h3>
+        <h2 id='ari'>Ari Marine</h2>
+        <h3 id='dev'>Web Developer</h3>
         <a href='#contact' id='contact-me'>Contact Me</a>
         <p>Duluth, MN</p>
       </div>

@@ -1,4 +1,28 @@
 .about-me {
   min-height: 100vh;
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 20%;
+}
+
+.about-me h2 {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: var(--blue);
+  margin: 1rem 0;
+}
+
+.about-p {
+  font-size: 2.4rem;
+}
+
+.about-me h4 {
+  font-size: 2.8rem;
+  color: var(--blue);
+  font-weight: 700;
+  margin: 1rem 0;
 }

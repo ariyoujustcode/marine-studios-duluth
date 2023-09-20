@@ -24,7 +24,7 @@ h1 {
   color: var(--blue);
 }
 
-h2, h3 {
+#ari, #dev {
   display: none;
 }
 
@@ -78,7 +78,7 @@ p {
     display: none;
   }
 
-  h2, h3 {
+  #ari, #dev {
     display: block;
     font-size: 3rem;
     text-align: center;
@@ -86,11 +86,11 @@ p {
     color: var(--blue);
   }
 
-  h2 {
+  #ari {
     padding-top: 1rem;
   }
 
-  h3 {
+  #dev {
     padding-bottom: 1rem;
   }
 
