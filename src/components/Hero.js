@@ -6,7 +6,8 @@ const svgData = `<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" wid
 
 function Hero() {
   return(
-    <div>
+    <div id='home'>
+      <div className='placeholder'></div>
       <div className='hero'>
         <div className='hero-image'>
           <InlineSVG src={svgData} className='hero-svg'/>

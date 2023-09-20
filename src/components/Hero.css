@@ -8,6 +8,9 @@
   color: var(--white);
 }
 
+.placeholder {
+  height: 12rem;
+}
 .hero-svg {
   width: 350px;
   height: auto;
@@ -67,6 +70,7 @@ p {
   .hero-svg {
     width: 500px;
   }
+
 }
 
 @media screen and (max-width: 700px) {
