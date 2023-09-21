@@ -1,11 +1,13 @@
 .about-me {
-  min-height: 100vh;
+  min-height: 100vh; 
   background-color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15%;
+  padding: 0 15%;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
 }
 
 .about-me .about-ari h2 {
@@ -13,7 +15,7 @@
   text-transform: uppercase;
   text-decoration: underline;
   color: var(--blue);
-  margin: 2% 0;
+   /* margin: 2% 0; */
   text-align: center;
 }
 
@@ -103,20 +105,21 @@
 
 @media screen and (max-width: 500px) {
   .about-me .about-ari h2 {
-    margin-top: 15%;
+    /* margin-top: 15%; */
   }
 
   .about-me {
     padding-left: 3%;
     padding-right: 3%;
+    /*
     padding-top: 25%;
-    padding-bottom: 25%;
+    padding-bottom: 25%; 
   }
 }
 
 @media screen and (max-width: 400px) {
   .about-me .about-ari h2 {
-    margin-top: 20%;
+    margin-top: 20%; */
   }
 }
 

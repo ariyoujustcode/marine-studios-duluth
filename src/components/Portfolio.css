@@ -1,4 +1,58 @@
 .portfolio {
   min-height: 100vh;
   background-color: var(--blue);
+  padding: 14rem 15%;
+}
+
+.portfolio h3 {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+}
+
+.port-one, .port-two {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.port-one a, .port-two a {
+  display: block;
+  text-decoration: none;
+}
+
+.port-one a img, .port-two a img {
+  display: block;
+  border: 5px solid var(--accent);
+}
+
+#gambill {
+  width: 280px;
+  height: auto;
+}
+
+#nf {
+  width: 280px;
+  height: auto;
+}
+
+#blend {
+  width: 280px;
+  height: 280px;
+  color: var(--white);
+  background-color: #000000;
+  border: 5px solid var(--accent);
+  font-size: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
