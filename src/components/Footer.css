@@ -14,6 +14,7 @@
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--accent);
+  text-align: center;
 }
 
 .footer-main a {
@@ -44,7 +45,7 @@
   background-color: var(--blue);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 980px) {
   .footer-main {
     flex-direction: column;
   }
@@ -55,5 +56,6 @@
 
   .footer-main a {
     padding: 2rem 4rem;
+    font-size: 2.4rem;
   }
 }
