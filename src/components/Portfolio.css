@@ -22,12 +22,23 @@
   margin-bottom: 1rem;
 }
 
-.port-one a, .port-two a {
-  display: block;
-  text-decoration: none;
+.port-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.port-one a img, .port-two a img {
+.port-one a, .port-two a, .port-three a {
+  display: block;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.port-one a img, .port-two a img, .port-three a img {
   display: block;
   border: 5px solid var(--accent);
 }
@@ -42,7 +53,7 @@
   height: auto;
 }
 
-#blend {
+#blend, #lucid, #intuit {
   width: 280px;
   height: 280px;
   color: var(--white);
@@ -55,4 +66,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#lucid {
+  font-size: 5rem;
+  background-color: var(--white);
+  color: var(--blue);
+}
+
+#ease {
+  width: 280px;
+  height: auto;
+}
+
+#curb {
+  width: 280px;
+  height: 280px;
+  background-color: var(--white);
+}
+
+@media screen and (max-width: 950px) {
+  .port-one, .port-two, .port-three {
+    flex-direction: column;
+  }
+
+  .port-one a, .port-two a, .port-three a {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
