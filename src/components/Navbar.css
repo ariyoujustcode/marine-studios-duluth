@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
+  z-index: 10;
 }
 
 .navlinks li a.active {
@@ -134,7 +135,7 @@
   .menu {
     margin-right: 1rem;
   }
-  
+
   #business-name {
     margin-right: 2rem;
     margin-left: 1rem;

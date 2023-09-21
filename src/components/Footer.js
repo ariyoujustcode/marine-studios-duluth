@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return(
     <div>
-        <div className='footer-main'>
+        <div className='footer-main' id='contact'>
           <p>Duluth, MN</p>
           <a href='mailto: arimarine23@gmail.com'>Email Me</a>
           <a href='tel:+13019221963'>Call Me</a>

@@ -1,6 +1,6 @@
 .portfolio {
   min-height: 100vh;
-  background-color: var(--blue);
+  background-color: var(--accent);
   padding: 14rem 15%;
 }
 
@@ -8,7 +8,7 @@
   font-size: 3.4rem;
   text-transform: uppercase;
   text-decoration: underline;
-  color: var(--white);
+  color: var(--blue);
   text-align: center;
   padding: 1rem;
 }
@@ -36,11 +36,17 @@
   text-decoration: none;
   margin-left: 2rem;
   margin-right: 2rem;
+  transition: all .2s ease-in;
+}
+
+.port-one a:hover, .port-two a:hover, .port-three a:hover {
+  opacity: .7;
+  z-index: 1;
 }
 
 .port-one a img, .port-two a img, .port-three a img {
   display: block;
-  border: 5px solid var(--accent);
+  border: 5px solid var(--white);
 }
 
 #gambill {
@@ -58,7 +64,7 @@
   height: 280px;
   color: var(--white);
   background-color: #000000;
-  border: 5px solid var(--accent);
+  border: 5px solid var(--white);
   font-size: 6rem;
   text-align: center;
   text-transform: uppercase;
@@ -70,8 +76,8 @@
 
 #lucid {
   font-size: 5rem;
-  background-color: var(--white);
-  color: var(--blue);
+  background-color: #000000;
+  color: var(--accent);
 }
 
 #ease {
@@ -82,7 +88,7 @@
 #curb {
   width: 280px;
   height: 280px;
-  background-color: var(--white);
+  background-color: #000000;
 }
 
 @media screen and (max-width: 950px) {
