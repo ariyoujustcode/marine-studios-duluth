@@ -1,4 +1,3 @@
-import './App.css';
 import Navbar from './components/Navbar.js';
 import Hero from './components/Hero.js';
 import Portfolio from './components/Portfolio.js';
