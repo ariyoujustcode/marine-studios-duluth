@@ -50,18 +50,18 @@
 }
 
 #gambill {
-  width: 280px;
+  width: 290px;
   height: auto;
 }
 
 #nf {
-  width: 280px;
+  width: 290px;
   height: auto;
 }
 
 #blend, #lucid, #intuit {
-  width: 280px;
-  height: 280px;
+  width: 290px;
+  height: 290px;
   color: var(--white);
   background-color: #000000;
   border: 5px solid var(--white);
@@ -81,23 +81,35 @@
 }
 
 #ease {
-  width: 280px;
+  width: 290px;
   height: auto;
 }
 
 #curb {
-  width: 280px;
-  height: 280px;
+  width: 290px;
+  height: 290px;
   background-color: #000000;
 }
 
 @media screen and (max-width: 950px) {
   .port-one, .port-two, .port-three {
     flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
   }
 
   .port-one a, .port-two a, .port-three a {
-    margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .port-one {
+    margin-top: 2rem;
+  }
+  
+
+  .portfolio {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 }

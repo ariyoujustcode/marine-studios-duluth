@@ -4,14 +4,17 @@
   align-items: center;
   flex-direction: column;
   min-height: calc(100vh - 12rem);
-  padding: 3%;
+  padding-bottom: 14rem;
+  padding-top: 3rem;
   color: var(--white);
 }
 
 .placeholder {
   height: 12rem;
 }
+
 .hero-svg {
+  max-width: 100%;
   width: 350px;
   height: auto;
 }
@@ -19,8 +22,8 @@
 h1 {
   font-size: 5.4rem;
   text-transform: uppercase;
-  padding: 1rem;
-  padding-bottom: .5rem;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
   color: var(--blue);
 }
 
@@ -46,7 +49,7 @@ h1 {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--blue);
   padding: 1rem;
 }
@@ -68,9 +71,20 @@ p {
   }
 
   .hero-svg {
-    width: 500px;
+    width: 75%;
   }
 
+}
+
+@media screen and (max-width: 930px) {
+  .placeholder {
+    height: 8rem;
+  }
+
+  #contact-me {
+    padding: 2rem 5rem;
+    font-size: 2.4rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -95,6 +109,6 @@ p {
   }
 
   .hero-svg {
-    width: 250px;
+    width: 290px;
   }
 }

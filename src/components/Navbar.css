@@ -78,6 +78,10 @@
   .navlinks li a {
     font-size: 1.6rem;
   }
+
+  .navbar {
+    padding: 0 7%;
+  }
 }
 
 @media screen and (max-width: 930px) {
@@ -86,12 +90,17 @@
     cursor: pointer;
   }
 
+  .navbar {
+    padding: 0 2rem;
+    height: 8rem;
+  }
+
   .navlinks {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 12rem; /* Adjust to your navbar height */
+    top: 8rem; /* Adjust to your navbar height */
     right: 0;
     background-color: var(--blue);
     width: 100%;
@@ -99,6 +108,7 @@
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
     justify-content: center;
+    
   }
 
   .menu.open .bar1 {
@@ -115,7 +125,7 @@
 
   .navlinks.open {
     max-height: 100vh;
-    min-height: calc(100vh - 12rem);
+    min-height: calc(100vh - 8rem);
   }
 
   .navlinks.open li a {
@@ -129,16 +139,11 @@
 
 @media screen and (max-width: 500px) {
   .navbar {
-    padding: 0 5%;
-  }
-
-  .menu {
-    margin-right: 1rem;
+    padding: 0 1.5rem;
   }
 
   #business-name {
     margin-right: 2rem;
-    margin-left: 1rem;
     display: block;
     text-align: left;
   }
