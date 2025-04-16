@@ -1,3 +1,20 @@
+# Ari Marine Portfolio Website
+# Marine Studios
+
+Built a personal website before enrolling in computer science to showcase my projects and frontend development skills.
+
+## Features
+- Single Page Web Application
+- Fully responsive (functions as expected on all kinds of devices)
+- Original design without AI generated content
+
+## Screenshots
+<img width="1189" alt="Screen Shot 2025-04-16 at 10 32 30" src="https://github.com/user-attachments/assets/d5a850c4-e6da-4bf9-bead-fb6299c1e31e" />
+
+## Technologies
+- Language(s): HTML / TailwindCSS / Next.js
+- Tools / Libraries: Firebase
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
